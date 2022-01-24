@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="porfolio.css">
+</head>
+
+<!-- 
+    la navbar debe estar arriba siempre (fixed)
+    una media query al menos
+Altura (hight) de bienvenida debe ser igual a la de la ventana gráfica
+-->
+
+
+<body>
+    <nav class="order1" id="navbar">
+        <button class="navbarBtn"><a class="linkBotom" href="#welcome-section">Sobre mi</a></button>
+        <button class="navbarBtn"><a class="linkBotom" href="#project-tile">Porfolio</a></button>
+        <button class="navbarBtn"><a class="linkBotom" href="#contact">Contacto</a></button>
+    </nav>
+    <section class="order2" id="welcome-section">
+        <h1 class="title">Hola Mundo</h1>
+        <h3 class="subtitle">Soy Alvaro, desarrollador Web y este de aquí abajo es mi porfolio</h3>
+        <h5 class="subtitle2">échale un vistazo</h5>
+        <button class="welcomeBtn"><a href="#project-tile">Click Me</a> </button>
+    </section>
+    <section class="order3">
+
+        <div id="project-tile">
+            <h2 class="work">Estos son mis trabajos</h2>
+            <div class="cards">
+                <div class="card">
+                    <img class="initialImg"
+                        src="https://web.serplus.es/wp-content/uploads/2021/06/BCLEJSVCKASHZNCKS.jpeg" alt="imgInicio">
+                    <button class="workBtn"><a href="https://codepen.io/alvarogarijo/pen/PoJvLra">Página
+                            Inicio</a></button>
+                </div>
+                <div class="card">
+                    <img class="phanterImg" src="https://img.ecartelera.com/noticias/62100/62149-m.jpg"
+                        alt="phanterImg">
+                    <button class="workBtn"><a href="https://codepen.io/alvarogarijo/pen/BawgRoa">Tributo a Black
+                            Panther</a>
+                </div></button>
+                <div class="card">
+                    <img class="formImg" src="http://cerebrolab.net/wp-content/uploads/2021/03/formulario.png"
+                        alt="formImg">
+                    <button class="workBtn"><a href="https://codepen.io/alvarogarijo/pen/JjrQEqK">Formulario
+                            Responsive</a></button>
+                </div>
+                <div class="card">
+                    <img class="marvelImg" src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Marvel_Logo.svg"
+                        alt="MarvelImg">
+                    <button class="workBtn"><a href="https://codepen.io/alvarogarijo/pen/mdBNNpp">Buscador
+                            Marvel</a></button>
+                </div>
+                <div class="card">
+                    <img class="blackImg"
+                        src="https://www.rushbet.co/blog/wp-content/uploads/2021/04/shutterstock_1715167144-1.jpg"
+                        alt="BlackImg">
+                    <button class="workBtn"><a href="https://github.com/AlvaroGarijo/BlackJack-Proyect">21
+                            BlackJack</a></button>
+                </div>
+            </div>
+
+            <button class="workBtn"><a id="profile-link" href="">PORFOLIO</a></button>
+        </div>
+    </section>
+    <section class="order4" id="contact">
+        <h1 class="titleContact">Trabajemos juntos</h1>
+        <h3 class="subtitleContact">¿Te apetece un café?</h3>
+
+        <div class="orderIcons">
+            <div class="fbook">
+                <a href="#"><img
+                        src="https://cdn-icons.flaticon.com/png/512/2175/premium/2175193.png?token=exp=1643035887~hmac=38bd4a6f1d16294603cd946c00077122"
+                        alt="fbImg"></a>
+            </div>
+            <div class="gitHub">
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png" alt=""> </a>
+            </div>
+            <div class="twit">
+                <a href="#"><img
+                        src="https://cdn-icons.flaticon.com/png/512/2956/premium/2956115.png?token=exp=1643035769~hmac=c3a5de707a64381b317b7320f8af897d"
+                        alt=""></a>
+            </div>
+            <div class="mail">
+                <a href="#"> <img src="https://cdn-icons-png.flaticon.com/512/1782/1782765.png" alt=""></a>
+            </div>
+            <div class="callme">
+                <a href="#"> <img src="https://cdn-icons-png.flaticon.com/512/455/455705.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        Alvaro Garijo Sánchez 2022 &copy; Todos los derechos reservados
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel List</title>
+    <link rel="stylesheet" href="documentStyle.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav id="navbar">
+            <header id="headerAvenger">Vengadores Reunios</header>
+            <ul class="avengerList">
+                <li class="avengerName"><a href="#avengers">Avengers</a></li>
+                <li class="avengerName"><a href="#ironman">Iron Man</a></li>
+                <li class="avengerName"><a href="#hulk">Hulk</a></li>
+                <li class="avengerName"><a href="#spiderman">Spiderman</a></li>
+                <li class="avengerName"><a href="#thor">Thor</a></li>
+                <li class="avengerName"><a href="#black_widow">Black Widow</a></li>
+                <li class="avengerName"><a href="#hawkeye">Hawkeye</a></li>
+                <li class="avengerName"><a href="#captain_america">Captain America</a></li>
+                <li class="avengerName"><a href="#winter_soldier">Winter Soldier</a></li>
+                <li class="avengerName"><a href="#vision">Vision</a></li>
+                <li class="avengerName"><a href="#wolverine">Wolverine</a></li>
+                <li class="avengerName"><a href="#deadpool">Deadpool</a></li>
+            </ul>
+            <img class="iconAvenger" src="https://redeemcode.square-enix-games.com/es-es/public/v3/avengers-logo.png"
+                alt="avengerIcon">
+
+        </nav>
+        <main id="main-doc">
+            <section class="main-section" id="avengers">
+                <article class="avengerArea">
+                    <div class="orderMain1">
+                        <h1>Avengers</h1>
+                        <img class="avengerImg"
+                            src="data:image/jpeg;base64,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"
+                            alt="avengerLogo">
+                    </div>
+                    <div class="orderMain2">
+                        <p class="paragraph">
+                            Etiquetados como los Héroes más poderosos de la Tierra, los Vengadores originalmente
+                            consistían
+                            en Ant-Man, Hulk, Iron Man, Thor y Avispa. Ant-Man se convirtió en Giant-Man por el número
+                            2. El
+                            Capitán América original fue descubierto atrapado en hielo en el número 4, y se unió al
+                            grupo
+                            después de que lo revivieran. Una lista rotativa se convirtió en un sello distintivo de la
+                            serie, aunque un tema se mantuvo constante: los Vengadores luchan "contra los enemigos que
+                            ningún superhéroe puede soportar".El equipo, famoso por su grito de batalla de «¡Vengadores
+                            unidos!», ha presentado a humanos, mutantes, inhumanos, androides, alienígenas, seres
+                            sobrenaturales e incluso antiguos villanos.
+                        </p>
+                        <h4 class="originals">Los Originales (Film 2012)</h4>
+                        <li>Iron Man: Tony Stark (Founder)</li>
+                        <li>Thor: Dios del Trueno</li>
+                        <li>Capitán America: Steve Rogers</li>
+                        <li>Black Widow: Natasha Romanov</li>
+                        <li>Hawkeye: Clint Burton</li>
+                        <li>Hulk: Bruce Banner</li>
+                    </div>
+                </article>
+            </section>
+
+
+
+            <!-- IRONMAN -->
+
+            <section class="main-section" id="ironman">
+                <article class="avengerArea">
+                    <div class="orderMain1">
+                        <h1>Iron Man</h1>
+                        <img class="ironmanImg"
+                            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/iron-man-1560858657.jpg"
+                            alt="ironmanImg">
+                    </div>
+                    <div class="orderMain2">
+                        <p class="paragraph">Iron Man (conocido en español como el Hombre de Hierro) es un
+                            superhéroe
+                            que
+                            aparece en los cómics
+                            estadounidenses publicados por Marvel Comics. El personaje fue cocreado por el escritor
+                            y
+                            editor
+                            Stan Lee, desarrollado por el guionista Larry Lieber y diseñado por los artistas Don
+                            Heck y
+                            Jack
+                            Kirby. Hizo su primera aparición en Tales of Suspense #39 (marzo de 1963), y recibió su
+                            propio
+                            título en Iron Man #1 (mayo de 1968).
+
+                            Anthony Edward Stark conocido como Tony Stark, es un multimillonario magnate empresarial
+                            estadounidense, playboy e ingenioso científico, quien sufrió una grave lesión en el
+                            pecho
+                            durante un
+                            secuestro en el Medio Oriente. Cuando sus captores intentan forzarlo a construir un arma
+                            de
+                            destrucción masiva crea, en cambio, una armadura para salvar su vida y escapar del
+                            cautiverio. Más
+                            tarde, Stark desarrolla su traje, agregando armas y otros dispositivos tecnológicos que
+                            diseñó a
+                            través de su compañía, Industrias Stark. Él usa el traje y las versiones sucesivas para
+                            proteger al
+                            mundo como Iron Man. Aunque al principio ocultó su verdadera identidad, Stark finalmente
+                            declaró que
+                            era, de hecho, Iron Man en un anuncio público.</p>
+
+                        <h4 class="power">Poderes</h4>
+                        <ol>
+                            <li>Genio</li>
+                            <li>Filantropo</li>
+                            <li>Millonario</li>
+                            <li>Playboy</li>
+                        </ol>
+
+                    </div>
+                </article>
+            </section>
+
+
+            <!-- HULK -->
+
+            <section class="main-section" id="hulk">
+                <article class="avengerArea">
+                    <div class="orderMain1">
+                        <h1>Hulk</h1>
+                        <img class="hulkImg"
+                            src="data:image/jpeg;base64,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"
+                            alt="hulkImg">
+                    </div>
+                    <div class="orderMain2">
+                        <p class="paragraph">
+                            Hulk (llamado La Masa o El Hombre Increíble en muchas de las traducciones al
+                            español) es un personaje
+                            ficticio, un superhéroe que aparece en los cómics estadounidenses publicados por la
+                            editorial
+                            Marvel
+                            Comics. El personaje fue creado por los escritores Stan Lee y Jack Kirby siendo su primera
+                            aparición
+                            en The Incredible Hulk #1 publicado en mayo de 1962. En sus apariciones de cómic, el
+                            personaje
+                            es a
+                            la vez Hulk, un ser humanoide enorme de piel verde, corpulento y musculoso que posee una
+                            gran
+                            fortaleza física, y su alter ego el Dr. Robert Bruce Banner (o Dr. David Bruce Banner),un
+                            físico físicamente débil, socialmente retraído y emocionalmente reservado, las dos
+                            personalidades
+                            existentes como independientes y con resentimiento de la otra.
+
+                            Después de una exposición accidental a los rayos gamma durante la detonación de una bomba
+                            experimental, Banner se transforma físicamente en Hulk cuando está sometido a estrés
+                            emocional,
+                            a su
+                            voluntad o en contra de ella, lo que a menudo lleva a destrozos y conflictos que complican
+                            la
+                            vida
+                            civil de Banner. El nivel de fuerza de Hulk se transmite normalmente de forma proporcional a
+                            su
+                            nivel de ira. Comúnmente retratado como un salvaje furioso, Hulk ha sido representado con
+                            otras
+                            personalidades basadas en la mente fracturada de Banner, desde una fuerza descerebrada y
+                            destructiva
+                            hasta un brillante guerrero o genio científico por derecho propio. A pesar del deseo de
+                            soledad
+                            tanto de Hulk como de Banner, el personaje tiene un gran elenco de apoyo, que incluye al
+                            amor de
+                            Banner, Betty Ross, su amigo Rick Jones, su prima She-Hulk, sus hijos Hiro-Kala y Skaar, y
+                            sus
+                            cofundadores del equipo de superhéroes, Los Vengadores. Sin embargo, su poder incontrolable
+                            lo
+                            ha
+                            llevado a entrar en conflicto con sus compañeros héroes y otros.</p>
+
+
+                        <h4 class="power">Poderes</h4>
+                        <ol>
+                            <li>Super Fuerza</li>
+                            <li>Genio</li>
+                            <li>Regeneración</li>
+                            <li>Potencial Físico Ilimitado</li>
+                    </div>
+                    </ol>
+                </article>
+            </section>
+
+            <!-- SPIDERMAN -->
+
+            <section class="main-section" id="spiderman">
+                <article class="avengerArea">
+                    <div class="orderMain1">
+                        <h1>Spiderman</h1>
+                        <img class="spidermanImg"
+                            src="https://www.muycomputer.com/wp-content/uploads/2021/08/Spider-Man.jpg"
+                            alt="spidermanImg">
+                    </div>
+                    <div class="orderMain2">
+                        <p class="paragraph">Spider-Man, traducido en ocasiones como Hombre Araña, es un personaje
+                            creado
+                            por
+                            los
+                            estadounidenses Stan Lee y Steve Ditko, e introducido en el cómic Amazing Fantasy n.° 15,
+                            publicado por Marvel Comics en agosto de 1962. Se trata de un superhéroe que emplea sus
+                            habilidades sobrehumanas, reminiscentes de una araña, para combatir a otros supervillanos
+                            que
+                            persiguen fines siniestros.
+
+                            Su creación se remonta a principios de la década de 1960 como respuesta al creciente interés
+                            del
+                            público adolescente en los cómics y el éxito de Los 4 Fantásticos. Tras su primera aparición
+                            en
+                            Amazing Fantasy, Marvel decidió producir una serie individual titulada The Amazing
+                            Spider-Man,
+                            cuyo ejemplar inicial salió a la venta en marzo de 1963. Desde entonces se han distribuido
+                            otros
+                            varios cómics relacionados con el personaje, así como otros productos que han derivado en el
+                            establecimiento de una franquicia de medios.
+
+                            Si bien posee múltiples versiones alternativas que han propiciado el desarrollo de un
+                            multiverso,
+                            los orígenes y rasgos principales de Spider-Man han permanecido mayormente invariables con
+                            el
+                            transcurso del tiempo. Generalmente su identidad secreta es Peter Parker, un joven huérfano
+                            neoyorquino que adquiere superpoderes después de ser mordido por una araña radiactiva, y
+                            cuya
+                            ideología como héroe se ve reflejada primordialmente en la expresión «un gran poder conlleva
+                            una
+                            gran responsabilidad». Suele ser asociado con una personalidad bromista, amable, inventiva y
+                            optimista, lo que le ha llevado a ser catalogado como el «vecino amigable» de cualquiera lo
+                            cual,
+                            aunado a sus vivencias caracterizadas por los problemas cotidianos, atrajeron el interés del
+                            público
+                            al contrastar con el arquetipo de superhéroe de la industria</p>
+
+                        <h4 class="power">Poderes</h4>
+                        <ol>
+                            <li>Super Fuerza</li>
+                            <li>Agilidad Aumentada</li>
+                            <li>Velocidad</li>
+                            <li>Ritmo de Curación Acelerado</li>
+                            <li>Trepa Muros</li>
+                            <li>Inteligencia por encima de la media</li>
+                            <li>Sentido Arácnido (cosquilleo)</li>
+                        </ol>
+                    </div>
+                </article>
+            </section>
+
+            <!-- THOR -->
+
+            <section class="main-section" id="thor">
+                <article class="avengerArea">
+                    <div class="orderMain1">
+                        <h1>Thor</h1>
+                        <img class="thorImg"
+                            src="https://www.enter.co/wp-content/uploads/2017/10/thor-the-dark-world-1024x767.jpg"
+                            alt="thorImg">
+                    </div>
+                    <div class="orderMain2">
+                        <p class="paragraph">
+                            Debutando en la Edad de Plata de los Libros de Cómics, el personaje apareció por primera vez
+                            en
+                            Journey into Mystery # 83 (agosto de 1962) y fue creado por el dibujante Jack Kirby, el
+                            editor
+                            Stan
+                            Lee y el guionista Larry Lieber. Ha protagonizado varias series en curso y series limitadas,
+                            y
+                            es
+                            miembro fundador del equipo de superhéroes, Los Vengadores, apareciendo en diferentes
+                            números de
+                            esa
+                            serie. El personaje también ha en diversos productos de Marvel, incluidas series de
+                            televisión
+                            animadas, películas, videojuegos, ropa, juguetes y tarjetas de intercambio.
+
+                            El personaje fue retratado por primera vez en acción en vivo por Eric Allan Kramer en la
+                            película de
+                            televisión de 1988 The Incredible Hulk Returns. Chris Hemsworth interpreta a Thor Odinson en
+                            las
+                            películas de Marvel Cinematic Universe: Thor (2011), The Avengers (2012), Thor: The Dark
+                            World
+                            (2013), Avengers: Age of Ultron (2015), Doctor Strange (2016) en un cameo, Thor: Ragnarok
+                            (2017),
+                            Avengers: Infinity War (2018), Avengers: Endgame (2019), Loki (2021) en un cameo, la serie
+                            animada
+                            de Disney+, ¿Qué pasaría si...? (2021) como versión alternativa y volverá a interpretar su
+                            papel
+                            en
+                            Thor: Love and Thunder (2022). Además, se utilizaron imágenes de archivo de Hemsworth como
+                            Thor
+                            en
+                            los episodios "Pilot " y "The Well" de Marvel's Agents of S.H.I.E.L.D.
+
+                            Colocan a Thor el 14° en IGN lista de 'Los 100 héroes del cómic de todos los tiempos en
+                            2011, y
+                            el
+                            primero en su lista de 'Los 50 Mejores Avengers' en 2012
+                        </p>
+                        <h4 class="power">Poderes</h4>
+                        <li>Vida Longeva</li>
+                        <li>Super Fuerza</li>
+                        <li>Super Resistencia</li>
+                        <li>Dios del trueno</li>
+                        <li>ARMA: Mjolnir</li>
+                    </div>
+                </article>
+            </section>
+
+
+            <!-- BLACK WIDOW -->
+
+            <section class="main-section" id="black_widow">
+                <article class="avengerArea">
+                    <div class="orderMain1">
+                        <h1>Black Widow</h1>
+                        <img class="blackWidowImg"
+                            src="https://i0.wp.com/hipertextual.com/wp-content/uploads/2021/03/viuda-negra-scaled.jpg?fit=2560%2C1606&ssl=1"
+                            alt="blackWidowimg">
+                    </div>
+                    <div class="orderMain2">
+                        <p class="paragraph">Natalia Alianovna Romanova (coloquial: Natasha
+                            Romanoff), alias: Viuda Negra (inglés: Black Widow; transliterado Chyornaya
+                            Vdova) es una superheroína ficticia que aparece en los cómics estadounidenses publicados por
+                            Marvel
+                            Comics. Creado por el editor y trazador Stan Lee, el guionista Don Rico y el artista Don
+                            Heck,
+                            el
+                            personaje debutó en Tales of Suspense #52 (abril de 1964). El personaje fue presentado como
+                            una
+                            espía rusa, una antagonista del superhéroe Iron Man. Más tarde, desertó a los Estados
+                            Unidos,
+                            convirtiéndose en una agente de la organización ficticia S.H.I.E.L.D., y miembro del equipo
+                            de
+                            superhéroes Los Vengadores.
+
+                            La actriz estadounidense Scarlett Johansson retrató el personaje en las películas del
+                            Universo
+                            Cinematográfico de Marvel en Iron Man 2 (2010), The Avengers (2012), Captain America: The
+                            Winter
+                            Soldier (2014), Avengers: Age of Ultron (2015), Capitán América: Civil War (2016), Avengers:
+                            Infinity War (2018), Capitana Marvel (2019) en un cameo, Avengers: Endgame (2019) y Black
+                            Widow
+                            (2021). Lake Bell expresa versiones de realidad alternativa del personaje de la serie
+                            animada de
+                            Disney+ What If...? (2021).</p>
+
+                        <h4 class="power">Habilidades</h4>
+                        <li>Mejorada por Biotecnología</li>
+                        <li>Agilidad, Flexibilidad y Destreza elevadas</li>
+                        <li>Manejo de Artes Marciales</li>
+                        <li>Manejo de cualquier tipo de Arma</li>
+                    </div>
+                </article>
+            </section>
+
+            <!-- HAWKEYE -->
+
+            <section class="main-section" id="hawkeye">
+                <article class="avengerArea">
+                    <div class="orderMain1">
+                        <h1>Hawkeye</h1>
+                        <img class="hawkeyeImg"
+                            src="https://as01.epimg.net/meristation/imagenes/2021/07/29/noticias/1627577876_232246_1627578026_portada_normal.jpg"
+                            alt="hawkeyeImg">
+                    </div>
+                    <div class="orderMain2">
+                        <p class="paragraph">Hawkeye (Clinton Francis «Clint» Barton) , es un superhéroe de ficción que
+                            aparece
+                            en los cómics
+                            estadounidenses publicados por Marvel Comics. Creado por el escritor Stan Lee y el artista
+                            Don
+                            Heck,
+                            el personaje apareció por primera vez como un villano en Tales of Suspense # 57 (septiembre
+                            de
+                            1964)
+                            y más tarde se unió a los Vengadores en The Avengers # 16 (mayo de 1965). Él ha sido un
+                            miembro
+                            prominente del equipo desde entonces. También ocupó el puesto # 44 en la lista de los 100
+                            mejores
+                            héroes de cómics de IGN.
+
+                            Ojo de Halcón es interpretado por Jeremy Renner en el Universo cinematográfico de Marvel.
+                            Renner
+                            primero hizo un cameo no acreditado en Thor (2011) y más tarde jugó un papel más grande en
+                            The
+                            Avengers (2012), Avengers: Age of Ultron (2015), Capitán América: Civil War (2016) y
+                            Avengers:
+                            Endgame (2019). Además, Renner expresa versiones alternativas de la línea de tiempo del
+                            personaje en
+                            la serie animada de Disney+ What If ...? (2021) y retrata al personaje de la serie Hawkeye
+                            (2021).
+                        </p>
+
+                        <h4 class="power">Habilidades</h4>
+                        <li>Punteria Milimetrica</li>
+                        <li>Artes Marciales</li>
+                        <li>Habilidad como espadachín</li>
+                        <li>ARMA: Arco y Flechas "especiales"</li>
+                    </div>
+                </article>
+            </section>
+
+            <!-- CAPTAIN AMERICA -->
+
+            <section class="main-section" id="captain_america">
+                <article class="avengerArea">
+                    <div class="orderMain1">
+                        <h1>Captain America</h1>
+                        <img class="captainImg"
+                            src="https://i0.wp.com/hipertextual.com/wp-content/uploads/2019/05/hipertextual-avengers-endgame-futuro-capitan-america-2019781893-scaled.jpg?fit=1200%2C750&ssl=1"
+                            alt="captainImg">
+                    </div>
+                    <div class="orderMain2">
+                        <p class="paragraph">El Capitán América, cuyo nombre real es Steven "Steve" Grant Rogers, es un
+                            superhéroe ficticio que
+                            aparece en los cómics estadounidenses publicados por Marvel Comics. Creado por los
+                            historietistas
+                            Joe Simon y Jack Kirby, el personaje apareció por primera vez en Captain America Comics #1
+                            (marzo de
+                            1941) de Timely Comics, predecesor de Marvel Comics. El Capitán América fue diseñado como un
+                            supersoldado patriota que luchaba frecuentemente contra las potencias del Eje en la Segunda
+                            Guerra
+                            Mundial, y fue el personaje más popular de Timely Comics durante el período de guerra. La
+                            popularidad de los superhéroes se desvaneció después de la guerra, y el cómic del Capitán
+                            América
+                            dejó de editarse en 1950, con un breve resurgimiento en 1953. Desde que Marvel Comics
+                            revivió al
+                            personaje en 1964, el Capitán América se ha mantenido en publicación.
+
+                            El Capitán América viste un traje que lleva un motivo de la bandera de los Estados Unidos, y
+                            utiliza
+                            un escudo casi indestructible que lanza como proyectil. El personaje es generalmente
+                            representado
+                            como el álter ego de Steve Rogers, un joven frágil mejorado a la cima de la perfección
+                            humana
+                            por un
+                            suero experimental S.S.S. (Suero supersoldado) para ayudar a los esfuerzos inminentes del
+                            gobierno
+                            de Estados Unidos en la Segunda Guerra Mundial. Cerca del final de la guerra, queda atrapado
+                            en
+                            el
+                            hielo y sobrevive en animación suspendida hasta que es descongelado en el presente. A pesar
+                            de
+                            que
+                            el Capitán América a menudo lucha por mantener sus ideales como un hombre fuera de su tiempo
+                            con
+                            sus
+                            realidades modernas, sigue siendo una figura muy respetada en su comunidad, hasta
+                            convertirse en
+                            el
+                            líder de Los Vengadores.
+
+                            El Capitán América fue el primer personaje de Marvel Comics que apareció en medios fuera de
+                            los
+                            cómics con el estreno de la serie de 1944, Capitán América. Desde entonces, el personaje ha
+                            aparecido en otras películas y series de televisión. En el Universo Cinematográfico de
+                            Marvel
+                            fue
+                            interpretado por Chris Evans en Capitán América: El primer vengador (2011), The Avengers
+                            (2012),
+                            Captain America: The Winter Soldier (2014), Avengers: Age of Ultron (2015), un cameo en
+                            Ant-Man
+                            (2015), Capitán América: Civil War (2016), un cameo en Spider-Man: Homecoming (2017),
+                            Avengers:
+                            Infinity War (2018), un cameo en Capitana Marvel (2019) y Avengers: Endgame (2019).
+
+                            El Capitán América está en el sexto puesto en el Top 100 Héroes del Cómic de Todos los
+                            Tiempos
+                            (2011
+                        </p>
+                        <h4 class="power">Poderes</h4>
+                        <li>Suero Super Soldado</li>
+                        <li>Entrenamiento Técnico-Táctico Militar</li>
+                        <li>Reflejos Aumentados</li>
+                        <li>EQUIPO: Escudo</li>
+                    </div>
+                </article>
+            </section>
+
+
+            <!-- WINTER SOLIDER -->
+
+            <section class="main-section" id="winter_soldier">
+                <article class="avengerArea">
+                    <div class="orderMain1">
+                        <h1>Winter Soldier</h1>
+                        <img class="winterSoldierImg"
+                            src="https://i.pinimg.com/originals/eb/2b/fe/eb2bfeb34203629fc2972f4c8b9e07fb.jpg"
+                            alt="winterSoldierImg">
+                    </div>
+                    <div class="orderMain2">
+                        <p class="paragraph">James Buchanan "Bucky" Barnes es un superhéroe ficticio que aparece en los
+                            cómics
+                            estadounidenses
+                            publicados por Marvel Comics. Originalmente presentado como un compañero del Capitán
+                            América, el
+                            personaje fue creado por Joe Simon y Jack Kirby y apareció por primera vez en Captain
+                            America
+                            Comics
+                            # 1 (marzo de 1941) (que fue publicado por el predecesor de Marvel, Timely Comics). El
+                            disfraz
+                            original de Barnes (o uno basado en él) y el apodo de Bucky han sido utilizados por otros
+                            héroes
+                            en
+                            el Universo Marvel a lo largo de los años. El personaje es traído de la supuesta muerte como
+                            el
+                            asesino al cual le fue lavado el cerebro, Soldado del Invierno. Los recuerdos y la
+                            personalidad
+                            del
+                            personaje se restauran más tarde, lo que lo lleva a convertirse en un héroe oscuro en busca
+                            de
+                            redención. Asume temporalmente el papel del "Capitán América" cuando se presume que Steve
+                            Rogers
+                            está muerto. Durante el crossover de 2011 Fear Itself, a Barnes se le inyecta la Fórmula
+                            Infinita,
+                            que aumenta su vitalidad natural y sus rasgos físicos de una manera similar (pero menos
+                            poderosa) al
+                            suero de súper soldado utilizado en el Capitán América.
+
+                            IGN enumeró a Bucky Barnes como el 53º héroe del cómic más grande de todos los tiempos,
+                            afirmando
+                            que después de Robin, Bucky es fácilmente el compañero de superhéroe más emblemático de la
+                            Era
+                            Dorada y lo describe como uno de los jugadores centrales en el Universo Marvel desde su
+                            papel de
+                            Capitán América.IGN también enumera a Bucky como # 8 en su lista de "The Top 50 Avengers" en
+                            2012.
+
+                            Sebastian Stan interpreta al personaje de las películas de Marvel Cinematic Universe;
+                            Capitán
+                            América: El primer vengador (2011), Captain America: The Winter Soldier (2014), Ant-Man
+                            (2015:
+                            cameo
+                            final), Capitán América: Civil War (2016), Black Panther (2018: cameo final), Avengers:
+                            Infinity
+                            War
+                            (2018), Avengers: Endgame (2019), la serie de televisión Disney+, The Falcon and The Winter
+                            Soldier
+                            (2021) y la próxima serie What If...? (2021).</p>
+
+                        <h4 class="power">Poderes</h4>
+                        <li>Suero Super Soldado</li>
+                        <li>Entrenamiento Técnico-Táctico Militar</li>
+                        <li>Reflejos Aumentados</li>
+                        <li>ARMA: Brazo de cibernético Wakandiano</li>
+                    </div>
+                </article>
+            </section>
+
+
+            <!-- VISION -->
+
+            <section class="main-section" id="vision">
+                <article class="avengerArea">
+                    <div class="orderMain1">
+                        <h1>Vision</h1>
+                        <img class="visionImg"
+                            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/vengadores-endgame-protagonistas-morir-vision-1549552538.jpg"
+                            alt="visionImg">
+                    </div>
+                    <div class="orderMain2">
+                        <p class="paragraph">Visión, o la Visión, es un superhéroe ficticio que aparece en los cómics
+                            estadounidenses publicados
+                            por Marvel Comics. El personaje apareció por primera vez en Avengers Volumen 1 # 57
+                            (publicado
+                            en
+                            agosto de 1968, con una fecha de portada de octubre de 1968), y se basa libremente en el
+                            personaje
+                            de Timely Comics del mismo nombre que era un extraterrestre de otra dimensión. Visión es un
+                            androide
+                            sintético o "sintezoide" construido por el robot villano Ultron. Originalmente estaba
+                            destinado
+                            a
+                            actuar como el "hijo" de Ultron y se le asignó la tarea de destruir al equipo de superhéroes
+                            los
+                            Vengadores. En cambio, Visión se volvió contra su creador y unió fuerzas con los Vengadores,
+                            deseando actuar él mismo heroicamente. Desde entonces, ha sido un miembro frecuente del
+                            equipo,
+                            así
+                            como de equipos relacionados, y durante un tiempo estuvo casado con su compañera de equipo,
+                            la
+                            Bruja
+                            Escarlata. También se desempeñó como miembro de Los Defensores.
+
+                            Visión fue creado a partir de una copia de la original Antorcha Humana, un hombre sintético
+                            creado
+                            por Phineas T. Horton. Ultron tomó esta forma de androide y le añadió tecnología avanzada,
+                            tal
+                            como
+                            programación robótica de su propio diseño y una réplica de las ondas cerebrales humanas. El
+                            resultado fue un ser artificial autoconsciente impulsado por la lógica pero que posee
+                            emociones
+                            y es
+                            capaz de lograr un crecimiento emocional. Como androide, Visión tiene una variedad de
+                            habilidades
+                            tecnológicas y mejoras físicas, y puede usar hologramas para disfrazar su apariencia.
+                            También
+                            puede
+                            controlar su densidad (pasando de la resistencia similar al diamante a la intangibilidad) y
+                            liberar
+                            la energía almacenada en sus células en forma de rayos de radiación. En la historia de 1989
+                            "Vision
+                            Quest", Vision fue desmantelado, luego reconstruido con una apariencia blanca como la tiza y
+                            ahora
+                            sin capacidad para las emociones. Su capacidad para las emociones fue restaurada en 1991 y
+                            su
+                            apariencia roja original en 1993 Visión. Otra serie limitada de Vision de cuatro números se
+                            publicó
+                            a finales de 2002. Entre 2015 y 2016, Vision volvió a tener su propia serie, durante la cual
+                            intentó
+                            vivir en los suburbios con una familia de androides.
+
+                            Desde su concepción, el personaje se ha adaptado a varias formas de medios fuera del cómic.
+                            Paul
+                            Bettany interpreta a Visión en las películas de Marvel Cinematic Universe Avengers: Age of
+                            Ultron
+                            (2015), Capitán América: Civil War (2016) y Avengers: Infinity War (2018), así como en la
+                            serie
+                            de
+                            Disney+ WandaVision (2021) y la serie animada ¿Qué pasaría si...? (2021) como una versión
+                            alternativa.</p>
+                        <h4 class="power">Poderes</h4>
+                        <li>Gema de la mente</li>
+                        <li>Vuelo</li>
+                        <li>Autoreparación</li>
+                        <li>Traspasa materiales (alteración física)</li>
+                    </div>
+                </article>
+            </section>
+
+            <!-- WOLVERINE -->
+
+            <section class="main-section" id="wolverine">
+                <article class="avengerArea">
+                    <div class="orderMain1">
+                        <h1>Wolverine</h1>
+                        <img class="wolverineImg"
+                            src="https://www.cinemascomics.com/wp-content/uploads/2021/12/Hugh-Jackman-Wolverine-Marvel-Studios.jpg"
+                            alt="wolverineImg">
+                    </div>
+                    <div class="orderMain2">
+                        <p class="paragraph">Wolverine, cuyo nombre de nacimiento es James Howlett (también conocido
+                            como
+                            James
+                            Logan o
+                            simplemente Logan) es un superhéroe ficticio que aparece en los cómics publicados por Marvel
+                            Comics, principalmente en asociación con los X-Men. Es un mutante que posee sentidos
+                            afinados a
+                            los
+                            animales, capacidades físicas mejoradas, poderosa capacidad de regeneración conocida como un
+                            factor
+                            de curación, y tres garras retráctiles en cada mano. Wolverine ha sido representado de
+                            diversas
+                            formas como miembro de los X-Men, Alpha Flight, Fuerza-X y Los Vengadores.
+
+                            Ha adquirido distintos nombres como Lobezno en España y Glotón, Guepardo, Aguja Dinámica o
+                            Emilio
+                            Garra en Hispanoamérica, donde también utilizan el alias original.
+
+                            Su primera aparición la realizó dentro de las páginas del número 180 del cómic The
+                            Incredible
+                            Hulk,
+                            en octubre de 1974, aunque su presentación formal fue en el número siguiente por descuido
+                            del
+                            guionista (número 181, noviembre de 1974). Además, hizo frecuentes apariciones como invitado
+                            en
+                            otros cómics de Marvel. En las décadas de 1980 y 1990, los cómics en los que aparecía el
+                            personaje
+                            de Wolverine llegaron a convertirse en los más vendidos de la editorial.
+
+                            Ha aparecido en la mayoría de las adaptaciones de X-Men a los medios, incluyendo series
+                            animadas
+                            de
+                            televisión, videojuegos, y la serie de películas de 20th Century Fox en la que es
+                            interpretado
+                            por
+                            Hugh Jackman en nueve de las diez películas. El personaje está altamente calificado en
+                            muchas de
+                            las
+                            mejores listas de cómics, ocupa el puesto # 1 en los mejores 200 personajes de cómic 2008 de
+                            la
+                            revista Wizard; 4 ° en los personajes de cómic más grandes de Empire 2008, y 4 ° en los 100
+                            mejores
+                            héroes de cómic de IGN en 2011.</p>
+                        <h4 class="power">Poderes</h4>
+                        <li>Adamantium</li>
+                        <li>Regeneración rápida</li>
+                        <li>Super Fuerza</li>
+                        <li>ARMA: Garras Adamantium</li>
+                    </div>
+                </article>
+            </section>
+
+            <!-- DEADPOOL -->
+
+            <section class="main-section" id="deadpool">
+                <article class="avengerArea">
+                    <div class="orderMain1">
+                        <h1>Deadpool</h1>
+                        <img class="deadPoolImg"
+                            src="https://as01.epimg.net/meristation/imagenes/2020/05/11/noticias/1589190997_006565_1589191075_noticia_normal.jpg"
+                            alt="deadPoolImg">
+                    </div>
+                    <div class="orderMain2">
+                        <p class="paragraph">Wade Winston Wilson, más conocido como Deadpool, (y en España también como
+                            Masacre
+                            en los cómics de
+                            Forum y Panini) es un personaje ficticio, mercenario, supervillano y antihéroe, que aparece
+                            en
+                            los cómics publicados por Marvel Comics. Creado por el artista Rob Liefeld y el escritor
+                            Fabian
+                            Nicieza, Deadpool apareció por primera vez en New Mutants (vol. 1) #98 (1991).
+
+                            Como un mercenario mentalmente inestable y desfigurado, Deadpool apareció originalmente como
+                            un
+                            villano en el cómic New Mutants, y más tarde en ediciones de X-Force. Desde entonces, el
+                            personaje
+                            ha protagonizado varias series en curso, y comparte títulos con otros personajes, como
+                            Cable.
+                            Conocido como el "Mercenario Bocón" ("Merc with a Mouth" en inglés; "Mercenario Bocazas" en
+                            España),
+                            es famoso por su naturaleza comunicativa y por su tendencia a romper la cuarta pared, un
+                            recurso
+                            utilizado por los escritores para un efecto humorístico. Su mayor enemigo es Taskmaster.
+
+                            En febrero de 2016, se estrenó una adaptación al cine de la mano de Fox.Tim Miller fue el
+                            encargado de dirigirla, mientras que Ryan Reynolds dio vida al personaje, apareciendo en las
+                            películas: X-Men Origins: Wolverine (2009), Deadpool (2016), y su secuela Deadpool 2
+                            (2018). Reynolds atribuye a Cable y Deadpool# 2 a lo que lo enganchó con el personaje y lo
+                            inspiró a llevarlo a las películas. Él continuará interpretando al personaje en Marvel
+                            Cinematic
+                            Universe.</p>
+                        <h4 class="power">Poderes</h4>
+                        <li>Regeneración Acelerada</li>
+                        <li>Invulnerabilidad</li>
+                        <li>ARMA: espadas, pistolas, cualquiera</li>
+                    </div>
+                </article>
+            </section>
+
+        </main>
+    </div>
+    <footer>Avengers Assemble &copy; Alvaro Garijo 2022</footer>
+</body>
+
+</html>

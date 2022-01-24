@@ -1,0 +1,74 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 80%;
+    margin: auto;
+
+}
+
+#img-div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px grey;
+    border: 1px solid lightgray;
+
+}
+
+#title,
+#img-caption {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    padding: 1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#tribute-info {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+
+}
+
+.button-link {
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 5px gray;
+    background-color: rgb(219, 253, 249);
+
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+
+.button-link:hover {
+    background-color: rgb(0, 159, 165);
+    box-shadow: 2px 2px 2px grey;
+    animation-timing-function: ease;
+}

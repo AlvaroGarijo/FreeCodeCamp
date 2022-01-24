@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(144, 238, 144, 0.26);
+    border-bottom: 1px solid rgb(209, 242, 255);
+}
+
+.navbarBtn {
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 3px rgb(34, 34, 34);
+    width: 100px;
+    background-color: rgba(154, 255, 179, 0.438);
+    border-bottom: 1px solid white;
+}
+
+.linkBotom {
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+}
+
+.navbarBtn:hover {
+    cursor: pointer;
+    font-weight: bolder;
+
+}
+
+/* WELCOME */
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: rgb(34, 195, 126); */
+    /* background: linear-gradient(0deg, rgba(34, 195, 126, 1) 0%, rgba(45, 136, 253, 0.6587009803921569) 100%); */
+    height: 100vh;
+}
+
+.title {
+    font-family: Impact;
+    font-size: 5rem;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.subtitle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 15px;
+
+}
+
+.subtitle2 {
+    font-family: sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 3px;
+}
+
+.welcomeBtn {
+    width: 200px;
+    height: 100px;
+    background-color: rgba(147, 255, 174, 0.699);
+    border: none;
+    box-shadow: 3px 3px 3px rgb(20, 20, 20);
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.welcomeBtn a {
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    color: black;
+}
+
+.welcomeBtn:hover {
+    cursor: pointer;
+    font-weight: normal;
+}
+
+/* PROJECTS */
+
+#project-tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: rgb(45, 136, 253);
+    background: linear-gradient(0deg, rgb(191, 253, 45) 0%, rgba(45, 253, 177, 0.6587009803921569) 100%); */
+    height: 100vh;
+}
+
+.work {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(155, 255, 185, 0.322);
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    border: 1px solid green;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.workBtn {
+    width: 250px;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: none;
+    background: rgba(154, 255, 179, 0.438);
+    box-shadow: 3px 3px 3px gray;
+}
+
+.card img {
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid green;
+}
+
+.card a {
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(7, 35, 36);
+    font-size: 2rem;
+    padding-top: 50px;
+
+}
+
+.initialImg,
+.formImg,
+.marvelImg,
+.blackImg {
+    width: 300px;
+}
+
+.phanterImg {
+    width: 300px;
+    height: 250px;
+}
+
+#profile-link {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    text-decoration: none;
+}
+
+/* CONTACT */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: rgb(45, 253, 191);
+    background: linear-gradient(0deg, rgba(45, 253, 191, 1) 0%, rgba(191, 253, 45, 0.6587009803921569) 100%); */
+    height: 85vh;
+}
+
+.titleContact {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
+}
+
+.subtitleContact {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+
+}
+
+.orderIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.orderIcons img {
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    background-color: rgba(156, 248, 217, 0.747);
+    border-top: 1px solid black;
+
+}

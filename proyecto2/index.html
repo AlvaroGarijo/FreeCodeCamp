@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formstyles.css" />
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div class="imageBack">
+        <div class="backForm">
+            <h1 id="title">Formulario de Registro</h1>
+            <p id="description">Rellena este formulario para acceder a nuestro servicio de fotografía personalizado</p>
+            <form id="survey-form" method="POST" target="_blank">
+                <div class="form-wrap">
+                    <div class="nameInput">
+                        <label id="name-label">Nombre: </label>
+                        <input class="name-label" type="text" placeholder="nombre" />
+                    </div>
+                    <div class="lastNameInput">
+                        <label id="lastName">Apellidos:</label>
+                        <input class="lastName" type="text" placeholder="apellidos" />
+                    </div>
+                    <div class="numberPhoneInput">
+                        <label id="number-label">Teléfono:</label>
+                        <input class="number-label" type="text" placeholder="teléfono" />
+                    </div>
+                    <div class="emailInput">
+                        <label id="email-label">Email:</label>
+                        <input class="email-label" type="email" placeholder="email" />
+                    </div>
+                    <div class="passwordInput">
+                        <label id="password">Password:<span class="req">*</span></label>
+                        <input class="password" type="password" placeholder="password" />
+                    </div>
+                    <div>
+                        <h4 class="service">¿Qué servicio quieres contratar?</h4>
+                        <select id="dropdown" name="select">
+                            <option selected>Seleccciona una opción</option>
+                            <option value="landscape">Paisaje</option>
+                            <option value="weddings">Bodas</option>
+                            <option value="stagNight">Despedidas de Solter@</option>
+                            <option value="christening">Bautizos</option>
+                            <option value="couples">Parejas</option>
+                            <option value="pregnant">Embarazos</option>
+                        </select>
+                    </div>
+                    <h2 class="service">Elige Cámara para tu evento</h2>
+                    <div class="order-labels">
+
+                        <label><input type="checkbox" name="nikon" id="camera">
+                            Nikon </label>
+                        <label><input type="checkbox" name="Canon" id="camera">
+                            Canon </label>
+                        <label><input type="checkbox" name="Sony" id="camera">
+                            Sony </label>
+                        <label><input type="checkbox" name="Fujifilm" id="camera">
+                            Fujifilm </label>
+                        <label><input type="checkbox" name="Fujifilm" id="camera">
+                            Indiferente </label>
+                    </div>
+
+                    <div>
+                        <h2 class="service">Describenos tu evento</h2>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <button id="submit" type="submit">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

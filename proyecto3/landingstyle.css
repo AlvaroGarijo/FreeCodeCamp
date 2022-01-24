@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+}
+
+.orderLogo {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+
+}
+
+#header-img {
+    width: 300px;
+    height: 300px;
+
+}
+
+.blackTitle {
+    padding: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+    width: 30%;
+
+
+}
+
+#nav-bar {
+    margin-top: 50px;
+    width: 20wv;
+
+}
+
+ol {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px;
+}
+
+video {
+    margin-top: 50px;
+    border: 3px solid black;
+}
+
+.wakandaTitle {
+    padding: 40px;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.emailInput {
+    width: 200px;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.425);
+}
+
+span {
+    font-style: oblique;
+    font-size: 2rem;
+}
+
+.sendMail {
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.buttonInput {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+    color: white;
+    background-color: black;
+}
+
+.buttonInput a {
+    text-decoration: none;
+    color: white;
+}
+
+.orderCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#card1,
+#card2,
+#card3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+h3 {
+    text-align: center;
+    padding: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+}
+
+p {
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+.imgBlack {
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px gray;
+}
+
+footer {
+    text-align: center;
+    background-color: cadetblue;
+    padding: 30px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}

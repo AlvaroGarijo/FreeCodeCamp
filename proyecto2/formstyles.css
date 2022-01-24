@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+}
+
+.imageBack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(https://www.elagoradiario.com/wp-content/uploads/2021/06/Insta-EconomiaCircular-1080x675-1.jpg);
+}
+
+.backForm {
+    border-radius: 15px;
+    padding: 50px;
+    background-color: rgba(0, 119, 255, 0.589);
+    width: 25vw;
+}
+
+#title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    padding: 10px;
+    border: 1px solid rgba(165, 165, 243, 0.815);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 1px white;
+    color: rgb(0, 2, 124);
+    font-style: oblique;
+}
+
+#description {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(0, 3, 180);
+    font-style: italic;
+}
+
+#survey-form {
+    padding: 10px;
+    border: 1px solid rgba(165, 165, 243, 0.815);
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px white;
+}
+
+.nameInput,
+.lastNameInput,
+.numberPhoneInput,
+.emailInput,
+.passwordInput {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#name-label,
+#lastName,
+#number-label,
+#email-label,
+#password {
+    color: rgb(0, 13, 133);
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+}
+
+.name-label,
+.lastName,
+.number-label,
+.email-label,
+.password {
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px 3px lightblue;
+    padding-left: 20px;
+    color: black;
+}
+
+.service {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    color: rgb(0, 13, 133);
+}
+
+#dropdown {
+    width: 250px;
+    height: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.order-labels {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px 3px lightblue;
+
+}
+
+#submit {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 120px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(0, 0, 141);
+    color: white;
+    margin-top: 10px;
+    box-shadow: 3px 3px 3px lightgray;
+}
+
+
+#submit:hover {
+    background-color: lightsteelblue;
+    color: black;
+}
+
+#deselected:hover {
+    background-color: lightsteelblue;
+    color: black;
+    box-shadow: 3px 3px 3px rgb(78, 78, 78);
+}
